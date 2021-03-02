@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = %w[lib]
 
-  spec.add_development_dependency 'activerecord', '~> 5.2.0'
+  spec.add_development_dependency 'activerecord', '~> 6.1.3'
   spec.add_development_dependency 'bundler', '~> 2.1.4'
   spec.add_development_dependency 'byebug', '~> 11.0.1'
   spec.add_development_dependency 'pg', '~> 0.18.4'
