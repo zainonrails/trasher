@@ -20,9 +20,10 @@ jobs:
     - name: Install gems
       run: gem install bundler:2.1.4
     - run: bundle _2.1.4_ install
+    - run: ruby spec/support/db_setup
 
     - name: Run Tests
-      run: rake rspec
+      run: rspec spec
 
     - name: Publish to RubyGems
       run: |
