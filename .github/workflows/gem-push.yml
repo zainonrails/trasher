@@ -18,8 +18,8 @@ jobs:
       with:
         ruby-version: 2.6.x
     - name: Install gems
-      run: gem install bundler
-    - run: bundle install
+      run: gem install bundler:2.1.4
+    - run: bundle _2.1.4_ install
 
     - name: Run Tests
       run: rake rspec
