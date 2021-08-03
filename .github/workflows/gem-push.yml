@@ -27,10 +27,10 @@ jobs:
         bundle _2.1.4_ install
 
     - name: Build database
-    - run: ruby spec/support/db_setup.rb
+      run: ruby spec/support/db_setup.rb
     
     - name: Run tests
-    - run: rspec spec
+      run: rspec spec
 
     - name: Publish to RubyGems
       run: |
