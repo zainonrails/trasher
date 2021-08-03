@@ -1,6 +1,6 @@
 # Trasher
 
-Soft Delete 
+A gem to provide soft delete feature for rails application by using deleted_at and deleted_by 
 
 ## Installation
 
