@@ -21,6 +21,10 @@ jobs:
       with:
         ruby-version: 2.6.x
     
+    - uses: harmon758/postgresql-action@v1
+      with:
+        postgresql version: '11'
+  
     - name: Build gems
       run: |
         gem install bundler:2.1.4
